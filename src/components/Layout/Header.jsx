@@ -121,10 +121,10 @@ export default function Header() {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className={`md:hidden pb-4 border-t ${isDark ? 'border-luxury-800' : 'border-luxury-200'}`}>
-            <Link to="/" className={`block py-4 px-4 font-medium border-b ${isDark ? 'text-luxury-100 hover:bg-luxury-800 border-luxury-800' : 'text-luxury-900 hover:bg-luxury-50 border-luxury-200'}`}>Home</Link>
-            <Link to="/collections" className={`block py-4 px-4 font-medium border-b ${isDark ? 'text-luxury-100 hover:bg-luxury-800 border-luxury-800' : 'text-luxury-900 hover:bg-luxury-50 border-luxury-200'}`}>Shop</Link>
-            <Link to="/about" className={`block py-4 px-4 font-medium border-b ${isDark ? 'text-luxury-100 hover:bg-luxury-800 border-luxury-800' : 'text-luxury-900 hover:bg-luxury-50 border-luxury-200'}`}>About</Link>
-            <Link to="/contact" className={`block py-4 px-4 font-medium ${isDark ? 'text-luxury-100 hover:bg-luxury-800' : 'text-luxury-900 hover:bg-luxury-50'}`}>Contact</Link>
+            <Link to="/" onClick={() => setIsMenuOpen(false)} className={`block py-4 px-4 font-medium border-b ${isDark ? 'text-luxury-100 hover:bg-luxury-800 border-luxury-800' : 'text-luxury-900 hover:bg-luxury-50 border-luxury-200'}`}>Home</Link>
+            <Link to="/collections" onClick={() => setIsMenuOpen(false)} className={`block py-4 px-4 font-medium border-b ${isDark ? 'text-luxury-100 hover:bg-luxury-800 border-luxury-800' : 'text-luxury-900 hover:bg-luxury-50 border-luxury-200'}`}>Shop</Link>
+            <Link to="/about" onClick={() => setIsMenuOpen(false)} className={`block py-4 px-4 font-medium border-b ${isDark ? 'text-luxury-100 hover:bg-luxury-800 border-luxury-800' : 'text-luxury-900 hover:bg-luxury-50 border-luxury-200'}`}>About</Link>
+            <Link to="/contact" onClick={() => setIsMenuOpen(false)} className={`block py-4 px-4 font-medium ${isDark ? 'text-luxury-100 hover:bg-luxury-800' : 'text-luxury-900 hover:bg-luxury-50'}`}>Contact</Link>
           </div>
         )}
       </div>
