@@ -20,16 +20,16 @@ export default function Footer() {
             </div>
             <p className="text-xs md:text-sm text-luxury-300 mb-4 md:mb-6">Premium luxury products for the discerning Indian customer.</p>
             <div className="flex gap-2">
-              <a href="#" className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-luxury-800 hover:bg-gold-500 flex items-center justify-center transition transform hover:scale-110">
+              <a href="/" className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-luxury-800 hover:bg-gold-500 flex items-center justify-center transition transform hover:scale-110">
                 <FiFacebook size={16} className="md:w-[18px] md:h-[18px]" />
               </a>
-              <a href="#" className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-luxury-800 hover:bg-gold-500 flex items-center justify-center transition transform hover:scale-110">
+              <a href="/" className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-luxury-800 hover:bg-gold-500 flex items-center justify-center transition transform hover:scale-110">
                 <FiInstagram size={16} className="md:w-[18px] md:h-[18px]" />
               </a>
-              <a href="#" className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-luxury-800 hover:bg-gold-500 flex items-center justify-center transition transform hover:scale-110">
+              <a href="/" className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-luxury-800 hover:bg-gold-500 flex items-center justify-center transition transform hover:scale-110">
                 <FiTwitter size={16} className="md:w-[18px] md:h-[18px]" />
               </a>
-              <a href="#" className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-luxury-800 hover:bg-gold-500 flex items-center justify-center transition transform hover:scale-110">
+              <a href="/" className="w-8 h-8 md:w-10 md:h-10 rounded-full bg-luxury-800 hover:bg-gold-500 flex items-center justify-center transition transform hover:scale-110">
                 <FiLinkedin size={16} className="md:w-[18px] md:h-[18px]" />
               </a>
             </div>
@@ -61,10 +61,10 @@ export default function Footer() {
           <div>
             <h4 className="font-serif text-sm md:text-lg mb-4 text-gold-400 font-bold">Support</h4>
             <ul className="space-y-2 md:space-y-3">
-              <li><a href="#" className="text-xs md:text-sm text-luxury-300 hover:text-gold-400 transition">Shipping Info</a></li>
-              <li><a href="#" className="text-xs md:text-sm text-luxury-300 hover:text-gold-400 transition">Track Order</a></li>
-              <li><a href="#" className="text-xs md:text-sm text-luxury-300 hover:text-gold-400 transition">Returns & Refunds</a></li>
-              <li><a href="#" className="text-xs md:text-sm text-luxury-300 hover:text-gold-400 transition">FAQ</a></li>
+              <li><a href="/" className="text-xs md:text-sm text-luxury-300 hover:text-gold-400 transition">Shipping Info</a></li>
+              <li><a href="/" className="text-xs md:text-sm text-luxury-300 hover:text-gold-400 transition">Track Order</a></li>
+              <li><a href="/" className="text-xs md:text-sm text-luxury-300 hover:text-gold-400 transition">Returns & Refunds</a></li>
+              <li><a href="/" className="text-xs md:text-sm text-luxury-300 hover:text-gold-400 transition">FAQ</a></li>
             </ul>
           </div>
 
@@ -72,10 +72,10 @@ export default function Footer() {
           <div>
             <h4 className="font-serif text-sm md:text-lg mb-4 text-gold-400 font-bold">Policies</h4>
             <ul className="space-y-2 md:space-y-3">
-              <li><a href="#" className="text-xs md:text-sm text-luxury-300 hover:text-gold-400 transition">Privacy Policy</a></li>
-              <li><a href="#" className="text-xs md:text-sm text-luxury-300 hover:text-gold-400 transition">Terms</a></li>
-              <li><a href="#" className="text-xs md:text-sm text-luxury-300 hover:text-gold-400 transition">Cookie Policy</a></li>
-              <li><a href="#" className="text-xs md:text-sm text-luxury-300 hover:text-gold-400 transition">Secure Shopping</a></li>
+              <li><a href="/" className="text-xs md:text-sm text-luxury-300 hover:text-gold-400 transition">Privacy Policy</a></li>
+              <li><a href="/" className="text-xs md:text-sm text-luxury-300 hover:text-gold-400 transition">Terms</a></li>
+              <li><a href="/" className="text-xs md:text-sm text-luxury-300 hover:text-gold-400 transition">Cookie Policy</a></li>
+              <li><a href="/" className="text-xs md:text-sm text-luxury-300 hover:text-gold-400 transition">Secure Shopping</a></li>
             </ul>
           </div>
         </div>
