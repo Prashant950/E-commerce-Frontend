@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { FiCheck, FiShoppingBag } from 'react-icons/fi';
+import { FiCheck } from 'react-icons/fi';
 import toast from 'react-hot-toast';
 import CartSummary from '../components/Cart/CartSummary';
 import CheckoutForm from '../components/Checkout/CheckoutForm';
 import { useTheme } from '../context/ThemeContext';
+
 
 export default function CheckoutPage() {
   const { isDark } = useTheme();
